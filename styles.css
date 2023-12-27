@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 06px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Style the book list */
+.book-list {
+    list-style: none;
+    padding: 0;
+}
+
+.book-list li {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the images */
+.book-list img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Style book titles */
+.book-list h3 {
+    color: #333;
+}
+
+/* Add hover effect */
+.book-list li:hover {
+    background-color: #f9f9f9;
+}
